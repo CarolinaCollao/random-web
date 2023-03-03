@@ -3,7 +3,7 @@ import './Page3.css'
 
 const Page3 = () => {
   return (
-    <div className='page3' id='page1'>
+    <div className='page3' id='page3'>
       <div className='container'>
         <div className='col-1'>
           <p>Excepteur sint occaecat</p>

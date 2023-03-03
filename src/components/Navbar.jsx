@@ -9,6 +9,7 @@ const Navbar = () => {
     const [click, setClick] = useState(false)
 
     const handleClick = () => setClick(!click)
+    const closeMenu = () => setClick(false)
 
     return (
         <div className='header'>
@@ -23,16 +24,16 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <a href='/' onClick={closeMenu} >Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Página 1</a>
+                        <a href='#page1' onClick={closeMenu} >Página 1</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Página 2</a>
+                        <a href='#page2' onClick={closeMenu} >Página 2</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Página 3</a>
+                        <a href='#page3' onClick={closeMenu} >Página 3</a>
                     </li>
                 </ul>
             </nav >
