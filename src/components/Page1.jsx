@@ -4,7 +4,7 @@ import retrato from '../images/retrato.png'
 
 const Page1 = () => {
     return (
-        <div className='page1'>
+        <div className='page1' id='page1'>
         <div className='container'>
                 <img src={retrato} alt='retrato' />
                 <div className='col-2'>

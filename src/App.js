@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Page1 from "./components/Page1";
@@ -13,6 +14,7 @@ function App() {
       <Page1 />
       <Page2 />
       <Page3 />
+      <Footer />
     </div>
   );
 }

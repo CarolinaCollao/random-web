@@ -7,7 +7,7 @@ import user3 from '../images/user3.jpg'
 
 const Page2 = () => {
     return (
-        <div className='page2'>
+        <div className='page2' id='page1'>
             <div className='container'>
                 <h2>Página 2</h2>
                 <span className='line'></span>

@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.footer .container {
+    max-width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer li{
+    padding: 1rem;
+}
+
+.footer li a {
+    color: white;
+}
+
+.footer li:hover {
+    padding-bottom:1px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.botton {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.line {
+    margin-bottom: 1rem;
+}
