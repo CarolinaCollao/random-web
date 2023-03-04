@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../images/logo.png';
 
@@ -24,19 +25,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu} >Home</a>
+                        <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu} >Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#page1' onClick={closeMenu} >Página 1</a>
+                        <Link activeClass="active" to="page1" spy={true} smooth={true} offset={50} duration={500}  onClick={closeMenu} >Page 1</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#page2' onClick={closeMenu} >Página 2</a>
+                        <Link activeClass="active" to="page2" spy={true} smooth={true} offset={50} duration={500}  onClick={closeMenu} >Page 2</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#page3' onClick={closeMenu} >Página 3</a>
+                        <Link activeClass="active" to="page3" spy={true} smooth={true} offset={50} duration={500}   onClick={closeMenu} >Page 3</Link>
                     </li>
-                      <li className='nav-item'>
-                        <a href='#footer' onClick={closeMenu} >Footer</a>
+                    <li className='nav-item'>
+                        <Link activeClass="active" to="fotter" spy={true} smooth={true} offset={50} duration={500}  onClick={closeMenu} >Footer</Link>
                     </li>
                 </ul>
             </nav >
