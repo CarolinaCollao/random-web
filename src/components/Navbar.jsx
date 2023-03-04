@@ -35,6 +35,9 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <a href='#page3' onClick={closeMenu} >Página 3</a>
                     </li>
+                      <li className='nav-item'>
+                        <a href='#footer' onClick={closeMenu} >Footer</a>
+                    </li>
                 </ul>
             </nav >
         </div >
